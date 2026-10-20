@@ -10,7 +10,7 @@ macOS 13 이상, Apple Silicon·Intel을 지원합니다.
 터미널에 아래 한 줄을 입력하세요. Homebrew·Xcode·GitHub 로그인은 필요하지 않습니다.
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/skizo-io/kej-releases/main/install.sh | /bin/bash
+curl -fsSL https://raw.githubusercontent.com/skizo-io/kej-releases/refs/heads/main/install.sh | /bin/bash
 ```
 
 공증된 DMG를 내려받아 체크섬·개발자 서명을 확인한 뒤 설치 앱을 엽니다.
