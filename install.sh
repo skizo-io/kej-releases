@@ -9,8 +9,8 @@ case "${1:-}" in
   ''|--check) ;;
   *) echo '사용법: bash install.sh [--check]' >&2; exit 2 ;;
 esac
-version='0.2.1'
-expected='5878702a5002d7d1e15a1492ff3fb7fc49ef014e644a74c5261dc02989e1f100'
+version='0.3.0'
+expected='1cebfb4e90f192f588f30bb50a181512eeadbd32fbaab6c3d27379e9b73f3d52'
 work=$(mktemp -d "${TMPDIR:-/tmp}/kej-download.XXXXXX")
 dmg="$work/Kej-$version.dmg"
 volume="$work/volume"
