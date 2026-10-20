@@ -5,6 +5,9 @@ macOS 13 이상, Apple Silicon·Intel을 지원합니다.
 
 이 저장소는 설치 파일과 안내만 공개합니다. 앱 소스와 인증서 개인 키는 포함하지 않습니다.
 
+회사 내부 업무 목적으로 무료로 설치·사용하고, 같은 목적으로 수정 없이 전달할 수 있습니다.
+외부 데이터의 별도 조건은 [데이터 출처·이용 조건](NOTICE.md), 프로그램 범위는 [Kej 이용 안내](KEJ-LICENSE.md)를 확인하세요.
+
 ## 명령어로 설치 시작
 
 터미널에 아래 한 줄을 입력하세요. Homebrew·Xcode·GitHub 로그인은 필요하지 않습니다.
@@ -18,9 +21,13 @@ curl -fsSL https://raw.githubusercontent.com/skizo-io/kej-releases/refs/heads/ma
 기존 학습 자료와 설정은 보존하며 이전 앱은 복구용으로 보관합니다.
 원격 스크립트 실행이 부담되면 아래 DMG를 직접 다운로드하세요.
 
+## 쉬운 설치 안내
+
+[다운로드·설치 안내 페이지](https://tinyurl.com/getkej)에서 최신 설치 파일과 설치 방법을 확인할 수 있습니다.
+
 ## 파일로 설치
 
-[최신 공증 DMG 다운로드](https://github.com/skizo-io/kej-releases/releases/latest/download/Kej-0.2.0.dmg)
+[최신 공증 DMG 다운로드](https://github.com/skizo-io/kej-releases/releases/latest/download/Kej-0.2.1.dmg)
 
 DMG를 열고 `Kej 설치.app`을 실행합니다. 정상적인 macOS 첫 실행 확인은 표시될 수 있습니다.
 업데이트도 같은 방법으로 진행하며 입력 소스를 다시 추가할 필요는 없습니다.
@@ -37,7 +44,7 @@ DMG를 열고 `Kej 설치.app`을 실행합니다. 정상적인 macOS 첫 실행
 
 ## 확인 범위
 
-0.2.0은 Developer ID 서명·Apple 공증·Gatekeeper 검사와 설치기 보존 검사를 통과했습니다.
+0.2.1은 Developer ID 서명·Apple 공증·Gatekeeper 검사와 설치기 보존 검사를 통과했습니다.
 다른 Mac의 최초 설치 실사용과 Intel 실기 확인은 아직 별도 미확인입니다.
 입력 내용은 서버로 보내지 않으며 학습 자료는 사용자 Mac에 저장합니다.
 
