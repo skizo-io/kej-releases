@@ -34,7 +34,7 @@ mkdir "$volume"
 mounted=1
 installer="$volume/Kej 설치.app"
 /usr/bin/codesign --verify --deep --strict \
-  -R 'anchor apple generic and certificate leaf[subject.OU] = "J9WMZ4G9PY" and identifier "com.k-byungkyu.Kej.Installer"' "$installer"
+  -R '=anchor apple generic and certificate leaf[subject.OU] = "J9WMZ4G9PY" and identifier "com.k-byungkyu.Kej.Installer"' "$installer"
 /usr/sbin/spctl --assess --type execute "$installer"
 echo '체크섬·개발자 서명·Gatekeeper 확인 완료.'
 if [[ "${1:-}" == --check ]]; then
