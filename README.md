@@ -17,7 +17,7 @@ macOS 13 이상 · Apple Silicon / Intel
 
 - **Space**: 확정·띄어쓰기 / 일본어 한자 후보
 - **Return**: 확정
-- **오른쪽 Option 또는 Command**
+- **오른쪽 Command — 변경 가능**
 
 **1. 현재 단어의 언어 전환**
 
@@ -29,7 +29,8 @@ macOS 13 이상 · Apple Silicon / Intel
 공백 뒤·입력창 맨 앞에서 누르세요.
 
 메뉴 막대의 **Kej → Kej 설정…**에서 메인·서브 키를 변경하거나 삭제할 수 있습니다.
-기본값: 메인 오른쪽 Command / 서브 오른쪽 Option
+기본값: 메인 오른쪽 Command / 서브 미등록
+실행 버전은 Kej 입력 메뉴 맨 위에서 확인할 수 있습니다.
 
 <details><summary>명령어로 설치</summary>
 
