@@ -28,6 +28,9 @@ macOS 13 이상 · Apple Silicon / Intel
 
 공백 뒤·입력창 맨 앞에서 누르세요.
 
+메뉴 막대의 **Kej → Kej 설정…**에서 메인·서브 키를 변경하거나 삭제할 수 있습니다.
+기본값: 메인 오른쪽 Command / 서브 오른쪽 Option
+
 <details><summary>명령어로 설치</summary>
 
 ```sh
