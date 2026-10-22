@@ -9,8 +9,8 @@ case "${1:-}" in
   ''|--check) ;;
   *) echo '사용법: bash install.sh [--check]' >&2; exit 2 ;;
 esac
-version='0.3.7'
-expected='0599495a32269a32d5b8dd36b5c7e0c98d329dd445e9aafe4ddf7a95c3fd7740'
+version='0.3.8'
+expected='df3f679790fbf858bad6bf5c41929fbf7227acc0419012451d2a883defe50adb'
 work=$(mktemp -d "${TMPDIR:-/tmp}/kej-download.XXXXXX")
 dmg="$work/Kej-$version.dmg"
 volume="$work/volume"
@@ -34,7 +34,7 @@ mkdir "$volume"
 mounted=1
 installer="$volume/Kej 설치.app"
 /usr/bin/codesign --verify --deep --strict \
-  -R '=anchor apple generic and certificate leaf[subject.OU] = "J9WMZ4G9PY" and identifier "com.k-byungkyu.Kej.Installer.v0-3-7.b16"' "$installer"
+  -R '=anchor apple generic and certificate leaf[subject.OU] = "J9WMZ4G9PY" and identifier "com.k-byungkyu.Kej.Installer.v0-3-8.b17"' "$installer"
 /usr/sbin/spctl --assess --type execute "$installer"
 echo '체크섬·개발자 서명·Gatekeeper 확인 완료.'
 if [[ "${1:-}" == --check ]]; then
