@@ -7,7 +7,7 @@ macOS 13 이상 · Apple Silicon / Intel
 
 [쉬운 설치 안내](https://tinyurl.com/getkej) · [최신 설치 파일](https://github.com/skizo-io/kej-releases/releases/latest)
 
-1. DMG를 열고 `Kej 설치.app`에서 **설치**를 누릅니다.
+1. ZIP 파일을 열어 압축을 푼 뒤, 폴더 안의 `Kej 설치.app`에서 **설치**를 누릅니다.
 2. 처음 한 번만 시스템 설정 → 키보드 → 입력 소스 편집 → **＋ → 한국어 → Kej**를 추가합니다.
 3. 메뉴 막대에서 Kej를 선택합니다.
 
