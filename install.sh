@@ -9,8 +9,8 @@ case "${1:-}" in
   ''|--check) ;;
   *) echo '사용법: bash install.sh [--check]' >&2; exit 2 ;;
 esac
-version='0.3.13'
-expected='ec6a6f17a28ee8c9f8546c5a64e93101c180972acba3cf8c4f78a2588c869e8d'
+version='0.3.14'
+expected='0640758fc0c6a516d0ded26a6e1b602dc55caabb869537b2c1b7e2cc63bd8140'
 work=$(mktemp -d "${TMPDIR:-/tmp}/kej-download.XXXXXX")
 trap 'rm -rf "$work"' EXIT
 archive="$work/Kej-$version.zip"
@@ -24,7 +24,7 @@ mkdir "$work/extracted"
 installer="$work/extracted/Kej 설치/Kej 설치.app"
 verify_installer() {
   /usr/bin/codesign --verify --deep --strict \
-    -R '=anchor apple generic and certificate leaf[subject.OU] = "J9WMZ4G9PY" and identifier "com.k-byungkyu.Kej.Installer.v0-3-13.b22"' "$1"
+    -R '=anchor apple generic and certificate leaf[subject.OU] = "J9WMZ4G9PY" and identifier "com.k-byungkyu.Kej.Installer.v0-3-14.b23"' "$1"
   /usr/sbin/spctl --assess --type execute "$1"
 }
 verify_installer "$installer"
