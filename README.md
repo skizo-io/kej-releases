@@ -13,6 +13,10 @@ macOS 13 이상 · Apple Silicon / Intel
 
 업데이트는 새 설치 파일만 실행하세요. 단어 선택과 설정은 유지되며, 입력 소스를 다시 추가할 필요는 없습니다.
 
+## 0.3.17 업데이트
+
+- 입력 내용 없이 같은 설치의 반복 사용을 구분하도록 이용 통계를 개선했습니다.
+
 ## 0.3.16 업데이트
 
 - 단축키 설정 화면을 간결하게 정리했습니다.
@@ -49,3 +53,7 @@ curl -fsSL https://raw.githubusercontent.com/skizo-io/kej-releases/refs/heads/ma
 </details>
 
 [저작권·데이터 출처](NOTICE.md) · [프로그램 이용 안내](KEJ-LICENSE.md)
+
+## 개인정보 안내
+
+입력·학습·클립보드 내용은 사용 통계로 전송하지 않습니다. 새 버전은 앱 전용 로컬 랜덤 설치 ID와 서비스·플랫폼·정식 채널·UTC 날짜만 실제 사용일에 하루 최대 한 번 전송하며, 같은 설치의 반복 사용을 중복 제거합니다. 기존 중단 선택을 보존합니다. [Kej for Mac 개인정보 안내](https://sbox-m.vercel.app/kej/privacy.html#macos-ko)를 확인해 주세요.
